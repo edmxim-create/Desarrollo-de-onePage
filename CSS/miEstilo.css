@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.contenido{
+    height: 100vh;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#zona1{
+    background-image: url('../images/generacion_1.jpg');
+}
+#zona2{
+    background-image: url('../images/generacion_2.jpg');
+    align-items: center;
+}
+#zona3{
+    background-image: url('../images/generacion_3.jpg');
+    align-items: center;
+}
+#zona4{
+    background-image: url('../images/generacion_4.jpg');
+    align-items: center;
+}
+#zona5{
+    background-image: url('../images/generacion_5.jpg');
+    align-items: center;
+}
+#zona6{
+    background-image: url('../images/generacion_6.jpg');
+    align-items: center;
+}
+/*menu*/
+nav{
+    position: fixed;
+    left: 200px;
+    top: 30%;
+    z-index: 100;
+    transition: 0.4s ease;
+    transform: rotateX(-50%);
+}
+ul{
+    list-style: none;
+}
+ul a{
+    display: block;
+    color:white ;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 0;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    transition: 0.4s ease;
+}
+a:hover{
+    transform:translateX(10%);
+    background-color: #545454;
+    color:white;
+    border: 0;
+}
+
+div {
+    background-color:#e4e4e5;
+    width: 200px;
+    position:relative;       
+    top: 40%;               
+    margin-left: auto;      
+    margin-right: 100px;    
+    border-radius: 2px;
+    padding: 15px;
+}
+ 
